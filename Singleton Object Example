@@ -1,0 +1,20 @@
+object Exampleofsingleton 
+{      
+    var str1 = "Welcome to Scala"; 
+    var str2 = "This is Singleton Object tutorial Scala "; 
+      
+    // Method of singleton object 
+    def display() 
+    { 
+        println(str1); 
+        println(str2); 
+    } 
+} 
+  
+object Main  
+{ 
+    def main(args: Array[String]) 
+    {     
+        Exampleofsingleton.display(); 
+    } 
+} 

@@ -1,0 +1,9 @@
+object Main  
+{ 
+    def main(args: Array[String]) 
+    {   
+        val name = "James"
+        println(s"Hello, $name")
+        println(s"8 * 7 = ${8 * 7}")
+    } 
+} 

@@ -1,0 +1,9 @@
+object Main  
+{ 
+    def main(args: Array[String]) 
+    {   
+        val geeks = List(1, 2, 3, 4, 5)
+        lazy val output2 = geeks.map(l=> l*2)
+        println(output2)
+    } 
+} 
